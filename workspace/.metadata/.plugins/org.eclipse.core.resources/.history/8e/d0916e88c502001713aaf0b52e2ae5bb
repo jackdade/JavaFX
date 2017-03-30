@@ -1,0 +1,15 @@
+package br.edu.unoesc.revisaoOO.modelo;
+
+public class Cliente {
+	
+	private String nome;
+	private LocalDate DataNascimento;
+	private String cpf;
+	
+	
+
+
+	
+	
+
+}

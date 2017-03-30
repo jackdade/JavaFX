@@ -1,0 +1,5 @@
+package br.edu.unoesc.revisaoOO.modelo;
+
+public class Cliente {
+
+}

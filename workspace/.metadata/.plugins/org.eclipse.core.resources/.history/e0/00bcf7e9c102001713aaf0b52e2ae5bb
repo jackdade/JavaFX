@@ -1,0 +1,14 @@
+package br.edu.unoesc.revisaoOO.modelo;
+
+public class ContaMain {
+
+	public static void main(String[] args) {
+		Conta conta1 = new Conta (123, "jacson");
+		conta1.depositar(1500.00);
+		conta1.sacar(200.00);
+		System.out.printlf("Conta %S saldo = %f", conta1.getNomeCliente(),
+				conta1.getSaldo());
+		
+		
+	}
+}

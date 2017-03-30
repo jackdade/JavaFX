@@ -1,0 +1,15 @@
+package br.edu.unoesc;
+
+import org.junit.Assert;
+import org.junit.Test;
+
+public class PessoaTest {
+	
+	@Test
+	
+	public void deveGerarNomeCompleto(){
+		Pessoa pessoa = new Pessoa ("nome","sobrenome");
+		Assert.assertEquals("nome sobrenome",pessoa.getNomeCompleto());
+	}
+
+}

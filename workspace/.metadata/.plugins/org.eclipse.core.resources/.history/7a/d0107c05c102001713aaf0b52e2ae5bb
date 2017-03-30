@@ -1,0 +1,12 @@
+package br.edu.unoesc.revisaoOO.modelo;
+
+public class Main {
+
+	Conta conta1 = new Conta();
+	Conta conta2 =new Conta();
+	
+
+	
+	
+	
+}

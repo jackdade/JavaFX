@@ -1,0 +1,20 @@
+package br.edu.unoesc.revisaoOO.modelo;
+
+import java.util.List;
+
+public class CalculadoraSaldo {
+
+	private List<Conta> contas;
+	private Conta addconta;
+	private double calcular;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

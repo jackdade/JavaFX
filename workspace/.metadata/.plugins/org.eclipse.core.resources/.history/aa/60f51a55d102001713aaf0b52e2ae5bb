@@ -1,0 +1,34 @@
+package br.edu.unoesc.revisaoOO.modelo;
+
+public class CalculadoraSaldo {
+
+	private Conta addconta;
+	private double calcular;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	public Conta getAddconta() {
+		return addconta;
+	}
+	public void setAddconta(Conta addconta) {
+		this.addconta = addconta;
+	}
+	public double getCalcular() {
+		return calcular;
+	}
+	public void setCalcular(double calcular) {
+		this.calcular = calcular;
+	}
+	
+	
+	
+}

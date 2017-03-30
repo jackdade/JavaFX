@@ -1,0 +1,32 @@
+package br.edu.unoesc.revisaoOO.modelo;
+
+public class Cliente {
+	
+	private string nome;
+	private date DataNascimento;
+	private bigint cpf;
+	
+	
+	public string getNome() {
+		return nome;
+	}
+	public void setNome(string nome) {
+		this.nome = nome;
+	}
+	public date getDataNascimento() {
+		return DataNascimento;
+	}
+	public void setDataNascimento(date dataNascimento) {
+		DataNascimento = dataNascimento;
+	}
+	public bigint getCpf() {
+		return cpf;
+	}
+	public void setCpf(bigint cpf) {
+		this.cpf = cpf;
+	}
+
+	
+	
+
+}

@@ -1,0 +1,6 @@
+package br.edu.unoesc.revisaoOO.modelo;
+
+public class CalculadoraSaldo {
+private addconta integer;
+private double calcular;
+}

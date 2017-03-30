@@ -1,0 +1,17 @@
+package br.edu.unoesc.revisaoOO.modelo;
+
+import java.time.LocalDate;
+
+public class Cliente {
+	
+	private String nome;
+	private LocalDate DataNascimento;
+	private String cpf;
+	
+	
+
+
+	
+	
+
+}

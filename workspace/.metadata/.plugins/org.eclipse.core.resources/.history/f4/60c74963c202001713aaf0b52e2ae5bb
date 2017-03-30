@@ -1,0 +1,19 @@
+package br.edu.unoesc.revisaoOO.modelo;
+
+public class ContaMain {
+
+	public static void main(String[] args) {
+		Conta conta1 = new Conta (123, "jacson");
+		conta1.depositar(1500.0);
+		conta1.sacar(200.0);
+		System.out.printf("Conta %s saldo = %f", conta1.getNomeCliente(),conta1.getSaldo());
+		System.out.println();
+		
+		
+		
+		Conta conta2 =new Conta(123,"trindade");
+		conta2.depositar(500.0);
+		conta2.sacar(100.0);
+		System.out.printf("Conta %s saldo=%f", conta2.getNomeCliente(),conta2.getSaldo());
+	}
+}
